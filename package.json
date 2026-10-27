@@ -1,0 +1,14 @@
+{
+  "name": "ai-engineering-bobur",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node website/scripts/start.mjs",
+    "dev": "node website/scripts/start.mjs",
+    "test": "npm --prefix website run test:standalone"
+  }
+}
